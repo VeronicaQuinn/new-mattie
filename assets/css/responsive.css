@@ -1,0 +1,148 @@
+@media screen and (max-width: 850px) {
+
+    /* header and nav bar */
+
+    .nav-bar {
+        justify-content: space-between;
+        padding: 0 .5rem;
+    }
+
+    .nav-bar ul {
+        justify-content: space-between;
+    }
+
+    .nav-bar-container {
+        padding: .3rem;
+    }
+
+    .nav-bar a {
+        font-size: 14pt;
+        letter-spacing: 1.5px;
+        padding: 3px
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    /* schedule page */
+
+    #schedule-table {
+        padding: 2rem;
+        height: 100%;
+        width: auto;
+        overflow-x: scroll;
+    }
+
+    /* membership page */
+
+    form {
+        width: 87%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    /* footer */
+
+    footer {
+        justify-content: space-evenly;
+        padding: 0 50px;
+    }
+
+    /* facilities page */
+
+    .facilities-main-hall {
+        display: inline-block;
+    }
+
+    .main-hall-content1 {
+        width: 100%;
+    }
+
+    .facilities-kitchen,
+    .facilities-gym {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+        border-top: 2px solid #A2BCE0;
+        padding: 1.5rem 1rem
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .facilities-field {
+        display: block;
+        padding: 0 3rem 1rem;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .header-section1 {
+        display: block;
+        padding: 0.2rem 1rem 0.5em;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.65rem;
+        text-align: center;
+        padding: 0.5rem 0rem 0;
+    }
+
+    .header-nav {
+        padding-left: 2rem;
+        text-shadow: 3px 3px #4f000b;
+    }
+
+    #header-nav-map {
+        display: none;
+    }
+
+    .nav-bar {
+        text-align: center;
+    }
+
+    .nav-bar ul {
+        display: inline-block;
+    }
+
+    .nav-bar a {
+        font-size: 11pt;
+    }
+
+    .header-nav-list li {
+        padding-top: 0.6rem;
+    }
+
+    .dressing-rooms-content {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    /* home page */
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .nav-bar-container {
+        padding: 0;
+    }
+
+    .about {
+        width: 98%;
+    }
+
+    .form-content {
+        padding: 6px 9px 26px;
+    }
+}

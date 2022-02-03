@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+    background-color: mediumspringgreen;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2,
+h3 {
+    font-size: xx-large;
+    font-weight: 1000;
+    text-shadow: 1px 1px 0 #FDF0D5;
+    text-decoration: underline #780000;
+}
+
+h4 {
+    font-size: large;
+    font-weight: 1000;
+    text-shadow: 1px 1px 0 #FDF0D5;
+    text-decoration: underline #4F000B;
+}
+
+h3 {
+    padding: 12px 0 15px;
+    font-size: x-large;
+}
+
+.page-headings {
+    padding: 20px;
+    text-align: center;
+}
+
+/*header*/
+
+header {
+    padding: .1rem;
+    background-color: #23297A;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: fit-content;
+}
+
+.header-section1 {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+    color: rgb(130, 183, 243);
+    justify-self: flex-start;
+    flex: 49%;
+    text-shadow: 5px 5px #4F000B;
+    padding: 1rem 1rem 0.1rem;
+}
+
+
+.header-nav {
+    padding: 0.5rem 0.2rem 0.7rem 0;
+    text-shadow: 3px 3px #4F000B;
+}
+
+.header-nav a {
+    color: rgb(149, 192, 241);
+    text-shadow: 3px 3px #4F000B;
+}
+
+.header-nav a:hover {
+    color: #FDF0D5;
+}
+
+.header-nav-list li {
+    font-size: .9rem;
+    padding-top: 1rem;
+    color: rgb(152, 195, 243);
+    list-style-type: none;
+}
+
+#header-nav-map {
+    padding-right: 11px;
+}
+
+#header-nav-map iframe {
+    overflow: hidden;
+    height: 5.5rem;
+    width: 5rem;
+}
+
+/*header ends*/
+
+/*nav bar*/
+
+.nav-bar-container {
+    background-color: rgb(130, 183, 243);
+    padding: .8rem;
+    width: 100%;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.nav-bar a {
+    color: #4F000B;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+}
+
+.nav-bar li {
+    list-style-type: none;
+
+}
+
+.nav-bar a:hover {
+    color: #FDF0D5;
+}
+
+/*nav bar ends*/
+
+/*footer*/
+
+footer {
+    height: 49px;
+    background-color: #23297A;
+    padding: 0 200px;
+    display: block;
+    clear: both;
+}
+
+.social-networks {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.social-networks i {
+    color: rgb(130, 183, 243);
+    font-size: 25px;
+    text-shadow: 3px 3px #4f000b;
+}
+
+.social-networks i:hover {
+    color: #FDF0D5;
+}
+
+/*footer ends*/
+
+/*home page*/
+
+.about {
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    font-weight: bold;
+    color: #780000;
+}
+
+.call-to-action-home {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.call-to-action-home>* {
+    padding: 1rem;
+}
+
+.call-to-action-home img {
+    width: 280px;
+    height: auto;
+}
+
+.call-to-action-home a {
+    text-decoration: underline;
+    color: #780000;
+    font-weight: bold;
+}
+
+.fees-home {
+    justify-content: center;
+}
+
+.fees-home ul {
+    list-style-type: none;
+}
+
+/*facilities page*/
+
+#main-hall-header {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.facilities img {
+    border-radius: 10px;
+}
+
+.facilities-main-hall {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 0 2.5rem
+}
+
+.main-hall-image {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.main-hall-content1 {
+    flex-basis: 27%;
+}
+
+.main-hall-column2 {
+    flex-basis: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-hall-banquet-image {
+    flex-basis: 71%;
+    height: auto;
+    width: 101%;
+    overflow: hidden;
+    align-self: center;
+    padding-top: 1.5rem;
+}
+
+.field-section {
+    border-top: 2px dashed #A2BCE0;
+}
+
+.facilities-field {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.goalposts-image {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.goalposts-image img {
+    width: 25rem;
+    height: auto;
+}
+
+.field-content {
+    flex-basis: 58%;
+    padding-bottom: 1rem;
+    align-self: center;
+}
+
+.dressing-rooms-content {
+    padding: 0 7rem;
+}
+
+.field-hurley-image {
+    flex-basis: 38%;
+    margin: auto 0;
+    overflow: hidden;
+}
+
+.facilities-gym {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    border-top: 2px solid #A2BCE0;
+    padding: 40px 0;
+}
+
+.gym-image {
+    flex-basis: 35%;
+}
+
+.gym-content {
+    flex-basis: 40%;
+    align-self: center;
+}
+
+
+.facilities-kitchen {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    border-top: 2px solid #A2BCE0;
+    padding: 40px 31px;
+}
+
+.kitchen-image {
+    flex-basis: 35%;
+    padding-top: 1rem;
+}
+
+.kitchen-content {
+    flex-basis: 37%;
+    align-self: center;
+}
+
+/*facilities page ends*/
+
+/*schedule page*/
+
+#schedule-table {
+       text-align: center;
+    }
+
+table {
+    border-collapse: collapse;
+    background-color: #fae6fa;
+    overflow-x: auto;
+    width: max-content;
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 16px 7px;
+    font-weight: bold;
+    color: #23297A;
+}
+
+table,
+th,
+td {
+    border: 2px solid #780000;
+}
+
+td {
+    text-align: left;
+}
+
+th {
+    background-color: #f9c391;
+}
+
+/* form*/
+
+.form-section {
+    padding-bottom: 36px;
+}
+
+input,
+textarea {
+    border: 2px solid #4F000B;
+    border-radius: 3px;
+    padding: 8px;
+    width: 50%;
+}
+
+form {
+    background-color: #fae6fac7;
+    margin: auto;
+    width: 63%;
+    border: 3px dashed #4F000B;
+}
+
+.form-content {
+    padding: 4px 40px 26px 40px;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    font-size: xx-large;
+    font-weight: 700;
+    color: #4F000B;
+}
+
+.form-buttons label {
+    display: inline-block;
+    padding: 3px 10px 3px 4px;
+    font-size: medium;
+    margin-top: 0;
+}
+
+.form-buttons p {
+    font-size: large;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+input[type=radio] {
+    width: min-content;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+button[type=radio] {
+    height: 10px;
+    width: 10px;
+}
+
+#checkbox-agree-terms label {
+    font-size: x-small;
+    padding-left: 31px;
+}
+
+input[type=checkbox] {
+    float: left;
+    width: 24px;
+    height: 17px;
+}
+
+button[type=submit] {
+    padding: 10px 12px;
+    background-color: #4F000B;
+    color: #A2BCE0;
+    font-size: large;
+    border-radius: 11px;
+}
+
+button[type=submit]:hover {
+    background-color: #A2BCE0;
+    border: #4F000B;
+    color: #4F000B;
+}
+
+/* form ends*/
